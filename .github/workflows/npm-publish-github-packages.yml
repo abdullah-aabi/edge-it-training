@@ -17,3 +17,5 @@ jobs:
           COMMIT_INFO_MESSAGE: ${{github.event.pull_request.title}}
           # re-enable PR comment bot
           COMMIT_INFO_SHA: ${{github.event.pull_request.head.sha}}
+          CYPRESS_PROJECT_ID: ge2xgu
+          CYPRESS_RECORD_KEY: 8fe64a2b-359f-4c9f-9ba2-2f0b0a1d068b
